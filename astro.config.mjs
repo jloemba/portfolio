@@ -7,7 +7,7 @@ import tailwindcss from "@tailwindcss/vite";
 // https://astro.build/config
 export default defineConfig({
   site: 'https://jloemba.github.io',
-  base: '/',
+  base: '/portfolio/',
   //integrations: [github()],
   output: 'static',
   vite: {
