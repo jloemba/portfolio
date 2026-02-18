@@ -1,0 +1,52 @@
+# Nom du workflow (visible dans l’onglet Actions)
+name: Deploy Astro to GitHub Pages
+
+# Déclenchement automatique à chaque push sur la branche main
+on:
+  push:
+    branches:
+      - main
+
+# Permissions nécessaires pour déployer sur GitHub Pages
+permissions:
+  contents: read       # Lire le repo
+  pages: write         # Écrire sur GitHub Pages
+  id-token: write      # Authentification OIDC
+
+jobs:
+  build:
+    runs-on: ubuntu-latest  # Machine virtuelle Linux fournie par GitHub
+
+    steps:
+      # 1️⃣ Récupère le code du repository
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # 2️⃣ Installe Node.js (version recommandée pour Astro)
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+          cache: npm   # Cache les dépendances pour accélérer les builds suivants
+
+      # 3️⃣ Installe les dépendances du projet
+      - name: Install dependencies
+        run: npm ci
+
+      # 4️⃣ Build du site Astro (génère le dossier /dist)
+      - name: Build Astro project
+        run: npm run build
+
+      # 5️⃣ Configure l’environnement GitHub Pages
+      - name: Setup GitHub Pages
+        uses: actions/configure-pages@v4
+
+      # 6️⃣ Upload du dossier généré (dist) comme artefact
+      - name: Upload build artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./dist
+
+      # 7️⃣ Déploiement sur GitHub Pages
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4
