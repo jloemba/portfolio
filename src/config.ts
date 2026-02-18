@@ -114,7 +114,7 @@ Je souhaite acquérir une expérience concrète dans <strong>les technologies bl
     {
       company: "TotalEnergies",
       title: "Ingénieur Logiciel",
-      dateRange: "Novembre 2020 - Août 2025",
+      dateRange: "Novembre 2020 - Juillet 2025",
       bullets: [
         "Développement de produits destinés aux opérateurs d’extraction pétrolière afin de surveiller et analyser les données de production en fonction de leurs objectifs opérationnels.",
         "Mise en œuvre de stratégies de test côté backend et frontend afin de garantir la qualité, la fiabilité et la maintenabilité des applications.",
