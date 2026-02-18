@@ -118,12 +118,13 @@ Je souhaite acquérir une expérience concrète dans <strong>les technologies bl
       bullets: [
         "Développement de produits destinés aux opérateurs d’extraction pétrolière afin de surveiller et analyser les données de production en fonction de leurs objectifs opérationnels.",
         "Mise en œuvre de stratégies de test côté backend et frontend afin de garantir la qualité, la fiabilité et la maintenabilité des applications.",
-        "Animation d’ateliers d’équipe visant à améliorer les processus de développement et à renforcer la collaboration au sein des équipes.",
+        "Pilotage technique et accompagnement des décisions d’implémentation.",
       ],
       skills: [
-        "TypeScript",
+        "Angular",
         "React",
-        "Node.js",
+        "FastAPI",
+        "Spring Boot",
         "Azure",
         "Docker",
         "CI/CD",
