@@ -13,18 +13,7 @@ Ingénieur logiciel avec plus de 4 ans d’expérience dans le développement et
 Je souhaite acquérir une expérience concrète dans <strong>les technologies blockchain</strong>, tout en appliquant de solides pratiques de <strong>qualité logicielle</strong> et de tests, issues de mon parcours en ingénierie logicielle.
 <strong>Mon objectif est de contribuer à des systèmes fiables, sécurisés et bien testés, en combinant des fondamentaux d’ingénierie éprouvés avec des technologies décentralisées émergentes.</strong>
 `,
-  // skills: [
-  //   "Typescript",
-  //   "React",
-  //   "Node.js",
-  //   "Python",
-  //   "Azure",
-  //   "Docker",
-  //   "MongoDB",
-  //   "CI/CD",
-  //   "Agile",
-  //   "Solidity",
-  // ],
+
   skills: [
     {
       category: "Langages de programmation",
@@ -95,17 +84,33 @@ Je souhaite acquérir une expérience concrète dans <strong>les technologies bl
       description:
         "Un orchestrateur liturgique qui simplifie la planification de la liturgie, structure les flux de service et simplifie la gestion des hymnes pour les églises.",
       link: "",
-      skills: ["React", "Node.js", "Solidity"],
+      skills: ["React", "Node.js"],
     },
     {
       name: "Application de vote basée sur la blockchain",
       description:
         "Une application de vote sécurisée et transparente construite sur la technologie blockchain, permettant aux utilisateurs de voter et de vérifier les votes de manière fiable.",
       link: "",
-      skills: ["React", "Python", "Solidity"],
+      skills: ["React", "FastAPI", "Solidity"],
     },
   ],
   experience: [
+    {
+      company: "Freelance",
+      title: "Ingénieur Logiciel",
+      dateRange: "Octobre 2025 - Janvier 2026",
+      bullets: [
+        "Livraison de fonctionnalités stratégiques dans des environnements variés, avec un focus sur la performance et la qualité logicielle.",
+        "Structuration d’architectures applicatives favorisant la scalabilité et la maintenabilité.",
+        "Pilotage technique et accompagnement des décisions d’implémentation.",
+      ],
+      skills: [
+        "TypeScript",
+        "React",
+        "Node.js",
+        "Ruby on Rails",
+      ],
+    },
     {
       company: "TotalEnergies",
       title: "Ingénieur Logiciel",
