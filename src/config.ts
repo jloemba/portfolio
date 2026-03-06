@@ -35,9 +35,9 @@ Je souhaite acquérir une expérience concrète dans <strong>les technologies bl
       category: "Cloud & DevOps",
       items: ["Microsoft Azure", "Docker", "CI/CD"],
     },
-       {
+    {
       category: "Base de données",
-      items: ["PostgreSQL","MySQL","SQLite",],
+      items: ["PostgreSQL", "MySQL", "Neo4j"],
     },
     {
       category: "IA & Productivité Développeur",
@@ -65,6 +65,24 @@ Je souhaite acquérir une expérience concrète dans <strong>les technologies bl
     },
   ],
   projects: [
+    {
+      name: "Moteur de modélisation en graphe",
+      description: `Un moteur backend conçu selon les principes du Domain-Driven Design (DDD) pour modéliser des structures de connaissance sous forme de graphes.
+
+        Les entités sont représentées par des nœuds typés (Nodes) reliés par des relations (Relationships).
+        Chaque nœud peut posséder des propriétés extensibles supportant plusieurs types de valeurs (texte, date, référence vers un autre nœud).
+
+        L’architecture met l’accent sur une modélisation métier forte, l’immutabilité et la testabilité.`,
+      bullets: [
+        "Généalogies familiales",
+        "Carte de connaissance pédagogique",
+        "Structure organisationnelle d’entreprise",
+        "Relations entre concepts dans un domaine métier",
+        "Relations entre personnages historiques ou littéraires",
+      ],
+      link: "",
+      skills: ["Spring Boot", "PostgreSQL", "Docker"],
+    },
     {
       name: "Chrome Extension – Détection d’offres d’emploi frauduleuses",
       description:
@@ -104,12 +122,7 @@ Je souhaite acquérir une expérience concrète dans <strong>les technologies bl
         "Structuration d’architectures applicatives favorisant la scalabilité et la maintenabilité.",
         "Pilotage technique et accompagnement des décisions d’implémentation.",
       ],
-      skills: [
-        "TypeScript",
-        "React",
-        "Node.js",
-        "Ruby on Rails",
-      ],
+      skills: ["TypeScript", "React", "Node.js", "Ruby on Rails"],
     },
     {
       company: "TotalEnergies",
