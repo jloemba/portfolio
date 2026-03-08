@@ -116,7 +116,7 @@ Je souhaite acquérir une expérience concrète dans <strong>les technologies bl
     {
       company: "Freelance",
       title: "Ingénieur Logiciel",
-      dateRange: "Octobre 2025 - Janvier 2026",
+      dateRange: "Octobre 2025 - Présent",
       bullets: [
         "Livraison de fonctionnalités stratégiques dans des environnements variés, avec un focus sur la performance et la qualité logicielle.",
         "Structuration d’architectures applicatives favorisant la scalabilité et la maintenabilité.",
