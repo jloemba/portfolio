@@ -100,7 +100,7 @@ Je souhaite acquérir une expérience concrète dans <strong>les technologies bl
       skills: ["Flask","React", "APIs REST", "PostgreSQL", "Docker","Azure"],
     },
     {
-      name: "Industrial Monitoring Platform – Well Operating Envelope",
+      name: "Industrial Monitoring Platform",
       description: `Plateforme interne de monitoring industriel permettant de surveiller en temps réel les paramètres critiques de puits pétroliers afin de garantir la sécurité et l’intégrité des opérations.
 
   Le système centralise les données opérationnelles (pression, température, débit) provenant de sources industrielles et expose ces informations via des APIs backend destinées aux applications métier.
