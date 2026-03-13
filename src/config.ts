@@ -81,7 +81,39 @@ Je souhaite acquérir une expérience concrète dans <strong>les technologies bl
         "Relations entre personnages historiques ou littéraires",
       ],
       link: "",
-      skills: ["Spring Boot", "PostgreSQL", "Docker"],
+      skills: ["Spring Boot", "React", "PostgreSQL", "Docker","Azure"],
+    },
+    {
+      name: "Refinery Blending Optimization Platform",
+      description: `Plateforme interne permettant de superviser et d’optimiser les opérations de blending en raffinerie, processus consistant à mélanger différents composants pétroliers pour produire des carburants conformes aux spécifications industrielles.
+
+  Le système centralise les données de production et de composition des flux afin de suivre les paramètres critiques des mélanges et d’assurer le respect des contraintes de qualité (octane, soufre, volatilité, etc.).
+
+  La plateforme permet aux ingénieurs de raffinerie d’analyser les recettes de mélange, d’identifier les écarts de qualité et d’optimiser les décisions opérationnelles liées à la production de carburants.`,
+      bullets: [
+        "Supervision des opérations de blending en raffinerie",
+        "Suivi des propriétés et spécifications des carburants produits",
+        "Analyse des recettes de mélange et des flux de production",
+        "Détection d’écarts de qualité dans les mélanges pétroliers",
+        "Support à la prise de décision des ingénieurs de raffinage",
+      ],
+      skills: ["Flask","React", "APIs REST", "PostgreSQL", "Docker","Azure"],
+    },
+    {
+      name: "Industrial Monitoring Platform – Well Operating Envelope",
+      description: `Plateforme interne de monitoring industriel permettant de surveiller en temps réel les paramètres critiques de puits pétroliers afin de garantir la sécurité et l’intégrité des opérations.
+
+  Le système centralise les données opérationnelles (pression, température, débit) provenant de sources industrielles et expose ces informations via des APIs backend destinées aux applications métier.
+
+  La plateforme permet aux ingénieurs d’identifier rapidement les dépassements de limites opérationnelles et de prendre des décisions informées pour maintenir la sécurité et la continuité de production.`,
+      bullets: [
+        "Surveillance des paramètres critiques des puits pétroliers",
+        "Détection de dépassement des limites opérationnelles",
+        "Analyse de données industrielles pour la gestion de l’intégrité des puits",
+        "Support à la prise de décision des ingénieurs de production",
+        "Centralisation et exposition des données opérationnelles via APIs",
+      ],
+      skills: ["Spring Boot", "Angular", "APIs REST", "PostgreSQL", "Docker"],
     },
     {
       name: "Chrome Extension – Détection d’offres d’emploi frauduleuses",
