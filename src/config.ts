@@ -42,7 +42,7 @@ Je souhaite acquérir une expérience concrète dans <strong>les technologies bl
     {
       category: "IA & Productivité Développeur",
       items: [
-        "GitHub Copilot (assistance à l’écriture et à la revue de code)",
+        "GitHub Copilot, Claude code, OpenClaw (assistance à l’écriture et à la revue de code)",
         "Cursor (IDE augmenté par l’IA pour la compréhension et le refactoring de code)",
         "Génération et Amélioration de tests",
         "Documentation technique",
@@ -146,7 +146,7 @@ Je souhaite acquérir une expérience concrète dans <strong>les technologies bl
     },
     {
       company: "Natixis TradexSolutions",
-      title: "Développeur Fullstack",
+      title: "Développeur technico-fonctionnel",
       dateRange: "Septembre 2017 - Juillet 2020",
       bullets: [
         "Développement d’un carnet d’ordres en temps réel pour des activités de trading à haute fréquence.",
