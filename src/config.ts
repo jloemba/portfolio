@@ -66,8 +66,8 @@ Je souhaite acquérir une expérience concrète dans <strong>les technologies bl
   ],
   projects: [
     {
-      name: "Moteur de modélisation en graphe",
-      description: `Un moteur backend conçu selon les principes du Domain-Driven Design (DDD) pour modéliser des structures de connaissance sous forme de graphes.
+      name: "Moteur de modélisation en arbre",
+      description: `Un moteur backend conçu selon les principes du Domain-Driven Design (DDD) pour modéliser des structures de connaissance sous forme d'arbres.
 
         Les entités sont représentées par des nœuds typés (Nodes) reliés par des relations (Relationships).
         Chaque nœud peut posséder des propriétés extensibles supportant plusieurs types de valeurs (texte, date, référence vers un autre nœud).
