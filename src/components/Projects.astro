@@ -63,6 +63,12 @@ const hasProjects = siteConfig.projects && siteConfig.projects.length > 0;
                           <h3 class="text-xl sm:text-2xl font-bold text-gray-900 mt-1">
                             {project.name}
                           </h3>
+                          <p
+                            class="text-base sm:text-lg"
+                            style={`color: ${siteConfig.accentColor}`}
+                          >
+                            {project.context}
+                          </p>
                         </div>
 
                         <p
@@ -72,14 +78,15 @@ const hasProjects = siteConfig.projects && siteConfig.projects.length > 0;
                         </p>
 
                         <ul class="space-y-2">
-                          {project.bullets && project.bullets!.map((bullet) => (
-                            <li class="flex items-start">
-                              <span class="inline-block w-1.5 h-1.5 rounded-full bg-gray-400 mt-2 mr-3 flex-shrink-0" />
-                              <span class="text-sm sm:text-base text-gray-600">
-                                {bullet}
-                              </span>
-                            </li>
-                          ))}
+                          {project.bullets &&
+                            project.bullets!.map((bullet) => (
+                              <li class="flex items-start">
+                                <span class="inline-block w-1.5 h-1.5 rounded-full bg-gray-400 mt-2 mr-3 flex-shrink-0" />
+                                <span class="text-sm sm:text-base text-gray-600">
+                                  {bullet}
+                                </span>
+                              </li>
+                            ))}
                         </ul>
 
                         {project.skills && project.skills.length > 0 && (

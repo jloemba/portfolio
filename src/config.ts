@@ -36,7 +36,7 @@ Je souhaite acquérir une expérience concrète dans <strong>les technologies bl
     },
     {
       category: "Langages de programmation",
-      items: ["TypeScript", "JavaScript", "Python", "Solidity"],
+      items: ["TypeScript", "JavaScript", "Python", "Solidity","Java"],
     },
     {
       category: "Frameworks & librairies - Frontend",
@@ -86,6 +86,7 @@ Je souhaite acquérir une expérience concrète dans <strong>les technologies bl
   projects: [
     {
       name: "Moteur de modélisation en arbre",
+      context: "Projet personnel",
       description: `Un moteur backend conçu selon les principes du Domain-Driven Design (DDD) pour modéliser des structures de connaissance sous forme d'arbres.
 
         Les entités sont représentées par des nœuds typés (Nodes) reliés par des relations (Relationships).
@@ -104,6 +105,7 @@ Je souhaite acquérir une expérience concrète dans <strong>les technologies bl
     },
     {
       name: "Carnet d’ordres en temps réel pour salle de marché",
+      context: "Natixis TradexSolutions",
       description: `Conception et développement d’un carnet d’ordres en temps réel pour des environnements de trading, 
       permettant le traitement de flux de données à haute fréquence, 
       la visualisation du marché en direct et le suivi des ordres d’achat et de vente.`,
@@ -112,7 +114,15 @@ Je souhaite acquérir une expérience concrète dans <strong>les technologies bl
       ],
     },
     {
+      name: "Outil de vote et d’évaluation des brokers",
+      context: "Natixis TradexSolutions",
+      description: `Application interne permettant aux traders d’évaluer et de voter pour des brokers selon des critères métiers et de performance. 
+      L’outil a amélioré la prise de décision et la transparence dans la sélection des brokers.`,
+      skills: ["Vue.js", "Flask", "PostgreSQL"],
+    },
+    {
       name: "Plateforme d'optimisation du mélange en raffinerie",
+      context: "TotalEnergies",
       description: `Plateforme interne permettant de superviser et d’optimiser les opérations de blending en raffinerie, processus consistant à mélanger différents composants pétroliers pour produire des carburants conformes aux spécifications industrielles.
 
   Le système centralise les données de production et de composition des flux afin de suivre les paramètres critiques des mélanges et d’assurer le respect des contraintes de qualité (octane, soufre, volatilité, etc.).
@@ -129,6 +139,7 @@ Je souhaite acquérir une expérience concrète dans <strong>les technologies bl
     },
     {
       name: "Plateforme de surveillance industrielle pour puits pétroliers",
+      context: "TotalEnergies",
       description: `Plateforme interne de monitoring industriel permettant de surveiller en temps réel les paramètres critiques de puits pétroliers afin de garantir la sécurité et l’intégrité des opérations.
 
   Le système centralise les données opérationnelles (pression, température, débit) provenant de sources industrielles et expose ces informations via des APIs backend destinées aux applications métier.
@@ -145,6 +156,7 @@ Je souhaite acquérir une expérience concrète dans <strong>les technologies bl
     },
     {
       name: "Chrome Extension – Détection d’offres d’emploi frauduleuses",
+      context: "Projet personnel",
       description:
         "Une extension Chrome qui aide à identifier les offres d’emploi frauduleuses avant de postuler, en analysant les contenus et en alertant l’utilisateur sur les signaux de risque potentiels.",
       link: "",
@@ -152,6 +164,7 @@ Je souhaite acquérir une expérience concrète dans <strong>les technologies bl
     },
     {
       name: "Registre de chansons sur la blockchain",
+      context: "Projet personnel",
       description:
         "Une application décentralisée (dApp) qui permet aux utilisateurs d'enregistrer leurs chansons sur la blockchain Ethereum, garantissant ainsi la preuve de propriété et l'authenticité.",
       link: "",
@@ -159,6 +172,7 @@ Je souhaite acquérir une expérience concrète dans <strong>les technologies bl
     },
     {
       name: "Orchestrateur liturgique",
+      context: "Projet personnel",
       description:
         "Un orchestrateur liturgique qui simplifie la planification de la liturgie, structure les flux de service et simplifie la gestion des hymnes pour les églises.",
       link: "",
@@ -166,6 +180,7 @@ Je souhaite acquérir une expérience concrète dans <strong>les technologies bl
     },
     {
       name: "Application de vote basée sur la blockchain",
+      context: "Freelance",
       description:
         "Une application de vote sécurisée et transparente construite sur la technologie blockchain, permettant aux utilisateurs de voter et de vérifier les votes de manière fiable.",
       link: "",
