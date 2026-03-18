@@ -16,6 +16,25 @@ Je souhaite acquérir une expérience concrète dans <strong>les technologies bl
 
   skills: [
     {
+      category: "Architecture logicielle",
+      items: [
+        "Domain-Driven Design (DDD)",
+        "Clean Architecture",
+        "Microservices",
+        "Event-Driven Architecture",
+      ],
+    },
+    {
+      category: "Qualité & testing logicielle",
+      items: [
+        "Stratégies de tests (unitaire , integration et end-to-end),TDD, Clean Code",
+      ],
+    },
+    {
+      category: "Bonnes pratiques",
+      items: ["SOLID", "KISS", "DRY", "YAGNI"],
+    },
+    {
       category: "Langages de programmation",
       items: ["TypeScript", "JavaScript", "Python", "Solidity"],
     },
