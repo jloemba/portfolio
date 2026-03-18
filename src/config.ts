@@ -81,7 +81,16 @@ Je souhaite acquérir une expérience concrète dans <strong>les technologies bl
         "Relations entre personnages historiques ou littéraires",
       ],
       link: "",
-      skills: ["Spring Boot", "React", "PostgreSQL", "Docker","Azure"],
+      skills: ["Spring Boot", "React", "PostgreSQL", "Docker", "Azure"],
+    },
+    {
+      name: "Carnet d’ordres en temps réel pour salle de marché",
+      description: `Conception et développement d’un carnet d’ordres en temps réel pour des environnements de trading, 
+      permettant le traitement de flux de données à haute fréquence, 
+      la visualisation du marché en direct et le suivi des ordres d’achat et de vente.`,
+      skills: [
+        "Python(Flask) pour le backend de traitement de données en temps réel",
+      ],
     },
     {
       name: "Refinery Blending Optimization Platform",
@@ -97,7 +106,7 @@ Je souhaite acquérir une expérience concrète dans <strong>les technologies bl
         "Détection d’écarts de qualité dans les mélanges pétroliers",
         "Support à la prise de décision des ingénieurs de raffinage",
       ],
-      skills: ["Flask","React", "APIs REST", "PostgreSQL", "Docker","Azure"],
+      skills: ["Flask", "React", "APIs REST", "PostgreSQL", "Docker", "Azure"],
     },
     {
       name: "Industrial Monitoring Platform",
