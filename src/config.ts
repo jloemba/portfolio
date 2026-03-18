@@ -93,7 +93,7 @@ Je souhaite acquérir une expérience concrète dans <strong>les technologies bl
       ],
     },
     {
-      name: "Refinery Blending Optimization Platform",
+      name: "Plateforme d'optimisation du mélange en raffinerie",
       description: `Plateforme interne permettant de superviser et d’optimiser les opérations de blending en raffinerie, processus consistant à mélanger différents composants pétroliers pour produire des carburants conformes aux spécifications industrielles.
 
   Le système centralise les données de production et de composition des flux afin de suivre les paramètres critiques des mélanges et d’assurer le respect des contraintes de qualité (octane, soufre, volatilité, etc.).
@@ -109,7 +109,7 @@ Je souhaite acquérir une expérience concrète dans <strong>les technologies bl
       skills: ["Flask", "React", "APIs REST", "PostgreSQL", "Docker", "Azure"],
     },
     {
-      name: "Industrial Monitoring Platform",
+      name: "Plateforme de surveillance industrielle pour puits pétroliers",
       description: `Plateforme interne de monitoring industriel permettant de surveiller en temps réel les paramètres critiques de puits pétroliers afin de garantir la sécurité et l’intégrité des opérations.
 
   Le système centralise les données opérationnelles (pression, température, débit) provenant de sources industrielles et expose ces informations via des APIs backend destinées aux applications métier.
