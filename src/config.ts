@@ -56,7 +56,7 @@ Je souhaite acquérir une expérience concrète dans <strong>les technologies bl
     },
     {
       category: "Base de données",
-      items: ["PostgreSQL", "MySQL","SQLite"],
+      items: ["PostgreSQL", "MySQL", "SQLite"],
     },
     {
       category: "Data & Analyse de données",
@@ -115,6 +115,10 @@ Je souhaite acquérir une expérience concrète dans <strong>les technologies bl
       la visualisation du marché en direct et le suivi des ordres d’achat et de vente.`,
       skills: [
         "Python(Flask) pour le backend de traitement de données en temps réel",
+        "Pandas",
+        "NumPy",
+        "Jupyter Notebook pour l’analyse de données de trading",
+        "Vue.js pour le frontend de visualisation du carnet d’ordres",
       ],
     },
     {
