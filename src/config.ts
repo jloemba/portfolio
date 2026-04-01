@@ -40,7 +40,7 @@ Je souhaite acquérir une expérience concrète dans <strong>les technologies bl
     },
     {
       category: "Frameworks & librairies - Frontend",
-      items: ["React", "Angular"],
+      items: ["React", "Angular","Vue.js"],
     },
     {
       category: "Frameworks & librairies - Backend",
