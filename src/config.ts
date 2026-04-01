@@ -36,7 +36,7 @@ Je souhaite acquérir une expérience concrète dans <strong>les technologies bl
     },
     {
       category: "Langages de programmation",
-      items: ["TypeScript", "JavaScript", "Python", "Solidity", "Java"],
+      items: ["TypeScript", "JavaScript", "Python", "Solidity", "Java","PHP"],
     },
     {
       category: "Frameworks & librairies - Frontend",
