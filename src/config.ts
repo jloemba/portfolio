@@ -44,7 +44,7 @@ Je souhaite acquérir une expérience concrète dans <strong>les technologies bl
     },
     {
       category: "Frameworks & librairies - Backend",
-      items: ["Node.js", "Spring Boot", "Express"],
+      items: ["Node.js", "Spring Boot", "Express","Laravel", "API Platform(Symfony)"],
     },
     {
       category: "Blockchain",
@@ -106,6 +106,12 @@ Je souhaite acquérir une expérience concrète dans <strong>les technologies bl
       ],
       link: "",
       skills: ["Spring Boot", "React", "PostgreSQL", "Docker", "Azure"],
+    },
+    {
+      "name": "Moteur de recherche avec API Platform et Elasticsearch",
+      "context": "Projet personnel",
+      "description": "Conception et développement d’un moteur de recherche basé sur API Platform et Elasticsearch, permettant une recherche rapide et pertinente sur de grands volumes de données. Mise en place de fonctionnalités avancées telles que l’indexation, le filtrage et la recherche full-text pour optimiser les performances et l’expérience utilisateur.",
+      skills: ["PHP", "API Platform", "Elasticsearch", "React", "Performance"]
     },
     {
       name: "Carnet d’ordres en temps réel pour salle de marché",
@@ -249,6 +255,7 @@ Je souhaite acquérir une expérience concrète dans <strong>les technologies bl
         "REST APIs",
         "WebSocket",
         "FastAPI",
+        "API Platform(Symfony)",
         "Flask",
         "Jupyter Notebook",
         "Spring Boots",
